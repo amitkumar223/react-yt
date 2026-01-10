@@ -1,0 +1,141 @@
+/* RESET */
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue' ;
+  
+}
+
+html, body {
+  
+  width: 100%;
+}
+
+/* PAGE */
+.parent{
+  min-height: 100vh;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+/* CARD */
+.card{
+  height: 300px;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 28px;
+  padding: 22px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* 🔥 PREMIUM LOOK */
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* ================= TOP ================= */
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 4px;
+  object-fit: cover;
+}
+
+.save-btn{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  font-size: 10px;
+  border-radius: 6px;
+  background: transparent;
+  color: #777;
+  cursor: pointer;
+}
+
+/* ================= CENTER ================= */
+.center h3{
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.center h3 span{
+  font-size: 10px;
+  font-weight: 400;
+  color: #999;
+  margin-left: 4px;
+}
+
+.center h2{
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 6px;
+  line-height: 1.25;
+}
+
+.tag{
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.tag h4{
+  font-size: 11px;
+  background-color: #eee;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* ================= BOTTOM ================= */
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  padding-top: 14px;
+}
+
+.bottom h3{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bottom p{
+  font-size: 11px;
+  color: #777;
+  margin-top: 2px;
+}
+
+/* APPLY BUTTON — EXACT IMAGE STYLE */
+.apply-btn{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 7px 14px;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.apply-btn:hover{
+  opacity: 0.9;
+}
