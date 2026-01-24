@@ -9,8 +9,8 @@ const RightCardContant = (props) => {
        <div>
          <p className='text-xl leading-relaxed text-white mb-14'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti aperiam, quibusdam fugiat consequuntur unde dolor,  </p>
          <div className='flex justify-between'>
-           <button className='bg-blue-600 text-white font-medium px-8 py-3 rounded-full '>{props.tag}</button>
-              <button className='bg-blue-600 text-white font-medium px-5 py-3 rounded-full'><i className="ri-arrow-right-line "></i></button>
+           <button style={{ backgroundColor: props.color }} className=' text-white font-medium px-8 py-3 rounded-full '>{props.tag}</button>
+              <button className=' text-white font-medium px-5 py-3 rounded-full'><i className="ri-arrow-right-line "></i></button>
          </div>
         </div>   
 

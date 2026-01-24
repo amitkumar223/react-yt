@@ -9,7 +9,7 @@ const Rightcontant = (props) => {
      {props.users.map(function(elem,idx){
 
 
-    return <RightCard key={idx} id={idx+1} img={elem.img} tag={elem.tag} />;
+    return <RightCard key={idx} color={elem.color} id={idx + 1} img={elem.img} tag={elem.tag} />;
      })}
     </div>
   )
