@@ -2,14 +2,16 @@ import React from 'react'
 
 const App = () => {
   function btnclick() {
-    console.log("Button is Clicked");
+    console.log("Button is  Clicked");
+  }
+   function mouseEnter() {
+    console.log("Mouse Entered");
   }
   return (
     <div>
-      {/* <h1>Hello,Amit</h1>
-      <button onClick={btnclick}>Change User</button> */}
-      <button onClick={btnclick}>Click here</button>
+      <button onMouseEnter={mouseEnter} onDoubleClick={btnclick}>Click on this</button>
     </div>
+
   )
 }
 
